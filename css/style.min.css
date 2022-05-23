@@ -1,10 +1,11 @@
-@import url(./__fonts.scss);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -21,12 +22,27 @@ li {
   list-style: none;
 }
 
-.svg__icon {
-  width: 40px;
-  height: auto;
+a {
+  text-decoration: none;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  cursor: default;
 }
 
 .nav-bar {
+  margin-bottom: 200px;
+  padding-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +56,7 @@ li {
 }
 
 .nav-bar .nav-bar__wrapper-logo {
-  width: 15%;
+  width: 10%;
 }
 
 .nav-bar .nav-bar__wrapper-logo .logo {
@@ -67,8 +83,12 @@ li {
           align-items: center;
 }
 
+.nav-bar .nav-bar__wrapper-navigation .wrapper-navigation__list .list__item .item__link {
+  font-weight: 500;
+}
+
 .nav-bar .nav-bar__wrapper-icon {
-  width: 22%;
+  width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,9 +100,119 @@ li {
           align-items: center;
 }
 
-.nav-bar .nav-bar__wrapper-icon .search__input {
+.nav-bar .nav-bar__wrapper-icon .wrapper-icon__search .search__input {
   width: 80%;
   border: none;
   border-bottom: 1px solid #ccc;
+  background: #000;
+  color: #ccc;
+  outline: none;
+  font-size: 16px;
+  padding: 0 0 5px 5px;
+}
+
+.nav-bar .nav-bar__wrapper-icon .wrapper-icon__search .search__icon {
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+
+.nav-bar .nav-bar__wrapper-icon .wrapper-icon__account svg {
+  margin-right: 10px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__info-company {
+  width: 20%;
+  text-align: center;
+}
+
+.footer .footer__info-company .footer__text-logo {
+  margin-top: 20px;
+}
+
+.footer .footer__info-company .footer__logo {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.footer .footer__info-company .footer__img-info {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__info-company .footer__img-info .footer__icon-mess {
+  width: 2em;
+  height: auto;
+}
+
+.footer .footer__text {
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  margin-bottom: 10px;
+}
+
+.footer .footer__text:hover {
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .footer__wrapper-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+}
+
+.footer .footer__wrapper-lists .footer__wrapper-list .footer__list .list__item {
+  margin-bottom: 10px;
+}
+
+.footer .footer__wrapper-lists .footer__wrapper-list .footer__list .list__item .item-link {
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.footer .footer__wrapper-lists .footer__wrapper-list .footer__list .list__item .item-link:hover {
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .footer__contacts {
+  text-align: right;
+}
+
+.footer .footer__contacts .footer__title-contact {
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.min.css.map */
