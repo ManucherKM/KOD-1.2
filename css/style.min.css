@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #fff;
 }
@@ -41,7 +41,6 @@ p {
 }
 
 .nav-bar {
-  margin-bottom: 200px;
   padding-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,6 +117,55 @@ p {
 
 .nav-bar .nav-bar__wrapper-icon .wrapper-icon__account svg {
   margin-right: 10px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  margin-top: 100px;
+  border-radius: 1em;
+  margin-bottom: 50px;
+}
+
+.header .header__text {
+  width: 50%;
+  margin-top: 150px;
+}
+
+.header .header__text .header__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.header .header__text .header__subtitle {
+  line-height: 1.4em;
+}
+
+.header .header__text .header__btn {
+  border: none;
+  background: #ffd233;
+  border-radius: 0.7em;
+  padding: 10px 30px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.header .header__img {
+  text-align: right;
+}
+
+.header .header__img .header__mario {
+  width: 80%;
+  height: auto;
+  margin-right: 70px;
 }
 
 .footer {

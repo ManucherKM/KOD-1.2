@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: #fff;
 }
@@ -41,7 +40,6 @@ p {
 
 //Меню
 .nav-bar {
-    margin-bottom: 200px;
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
@@ -99,8 +97,49 @@ p {
         }
     }
 }
-//Футер
 
+//Хедер
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 100px;
+    border-radius: 1em;
+    margin-bottom: 50px;
+    .header__text {
+        width: 50%;
+        margin-top: 150px;
+
+        .header__title {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .header__subtitle {
+            line-height: 1.4em;
+        }
+
+        .header__btn {
+            border: none;
+            background: #ffd233;
+            border-radius: 0.7em;
+            padding: 10px 30px;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+    }
+
+    .header__img {
+        text-align: right;
+        .header__mario {
+            width: 80%;
+            height: auto;
+            margin-right: 70px;
+        }
+    }
+}
+
+//Футер
 .footer {
     display: flex;
     justify-content: space-between;
