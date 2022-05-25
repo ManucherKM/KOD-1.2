@@ -93,8 +93,6 @@ p {
                 margin-right: 10px;
             }
         }
-        .wrapper-icon__box {
-        }
     }
 }
 
@@ -139,6 +137,63 @@ p {
     }
 }
 
+.main {
+    .main__about-us {
+        .about-us__title {
+            font-size: 30px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .about-us__info {
+            width: 100%;
+            background: rgb(43, 195, 34);
+            background: linear-gradient(60deg, rgba(43, 195, 34, 1) 0%, rgba(253, 187, 45, 1) 100%);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 2em;
+            margin-bottom: 30px;
+            .about-us__img {
+                width: 40%;
+                border-radius: 2em;
+                margin: 30px 0;
+                margin-right: 30px;
+            }
+            .main__text {
+                margin-left: 30px;
+                width: 50%;
+                font-size: 16px;
+                line-height: 1.6em;
+                text-align: justify;
+            }
+        }
+        .about-us__wrapper-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .about-us__info-dop {
+                width: 48%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background: rgb(43, 195, 34);
+                background: linear-gradient(60deg, rgba(43, 195, 34, 1) 0%, rgba(253, 187, 45, 1) 100%);
+                border-radius: 2em;
+                .main__text {
+                    margin-left: 10px;
+                }
+                .about-us__img {
+                    width: 40%;
+                    border-radius: 2em; 
+                    margin: 15px;
+                }
+            }
+        }
+    }
+}
+
 //Футер
 .footer {
     display: flex;
@@ -176,7 +231,6 @@ p {
         transition: all 300ms;
         color: rgba(255, 255, 255, 0.5);
     }
-
     .footer__wrapper-lists {
         display: flex;
         justify-content: space-between;
@@ -197,7 +251,6 @@ p {
             }
         }
     }
-
     .footer__contacts {
         text-align: right;
         .footer__title-contact {

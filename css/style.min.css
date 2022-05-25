@@ -168,6 +168,81 @@ p {
   margin-right: 70px;
 }
 
+.main .main__about-us .about-us__title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main .main__about-us .about-us__info {
+  width: 100%;
+  background: #2bc322;
+  background: linear-gradient(60deg, #2bc322 0%, #fdbb2d 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2em;
+  margin-bottom: 30px;
+}
+
+.main .main__about-us .about-us__info .about-us__img {
+  width: 40%;
+  border-radius: 2em;
+  margin: 30px 0;
+  margin-right: 30px;
+}
+
+.main .main__about-us .about-us__info .main__text {
+  margin-left: 30px;
+  width: 50%;
+  font-size: 16px;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+.main .main__about-us .about-us__wrapper-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main__about-us .about-us__wrapper-info .about-us__info-dop {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2bc322;
+  background: linear-gradient(60deg, #2bc322 0%, #fdbb2d 100%);
+  border-radius: 2em;
+}
+
+.main .main__about-us .about-us__wrapper-info .about-us__info-dop .main__text {
+  margin-left: 10px;
+}
+
+.main .main__about-us .about-us__wrapper-info .about-us__info-dop .about-us__img {
+  width: 40%;
+  border-radius: 2em;
+  margin: 15px;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
